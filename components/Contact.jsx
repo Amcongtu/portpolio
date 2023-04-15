@@ -18,10 +18,11 @@ function Contact(props) {
               <div className="lg:p-4 h-full">
                 <div className="">
                   <Image
-                    className="w-full h-full rounded-xl hover:scale-105 ease-in duration-300"
+                    className={'w-full h-full rounded-xl hover:scale-105 ease-in duration-300'}
                     src={
-                      "/assets/341027718_1676182212842322_1799788735964277705_n.png"
+                      '/assets/341027718_1676182212842322_1799788735964277705_n.png'
                     }
+                    alt={"/"}
                     width={80}
                     height={80}
                   />
@@ -31,7 +32,7 @@ function Contact(props) {
                   <p className="">Full-stack Developer</p>
                   <p className="py-4">
                     I am available for freelance or full-time positons. Contact
-                    me let's talk.
+                    me let&#39;s talk.
                   </p>
                 </div>
                 <div className="">

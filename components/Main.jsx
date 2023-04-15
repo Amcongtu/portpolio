@@ -7,8 +7,8 @@ function Main(props) {
         <div className='w-full h-screen text- center'>
             <div className="max-w-[1240px] w-full h-full mx-auto flex justify-center items-center">
                 <div className="pt-12 mt-4">
-                    <p className="uppercase text-sm tracking-widest text-gray-600">LET'S BUILD SOMTHING TOGETHER</p>
-                    <h1 className="py-4 text-gray-700">Hi, I'm <span className='text-[#5651e5]'>Phạm Minh Quân</span></h1>
+                    <p className="uppercase text-sm tracking-widest text-gray-600">LET&#39;S BUILD SOMTHING TOGETHER</p>
+                    <h1 className="py-4 text-gray-700">Hi, I&#39;m <span className='text-[#5651e5]'>Phạm Minh Quân</span></h1>
                     <h1 className="py-4 text-gray-700">
                         A Full-stack Web Developer
                     </h1>
