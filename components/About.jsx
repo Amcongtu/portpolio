@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 function About(props) {
   return (
-    <div className="w-full md:h-screen p-2 flex items-center scroll-py-16">
+    <div className="w-full md:h-screen p-2 flex items-center scroll-py-16" id="about">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-5 gap-8">
         <div className="col-span-3">
           <p className="uppercase py-4 text-xl tracking-widest font-bold text-[35px] text-[#5651e5]">About</p>

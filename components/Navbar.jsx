@@ -26,20 +26,20 @@ function Navbar(props) {
             <Link href={"/"}>
               <li className="ml-10 text-sm uppercase hover: border-b hover:text-[#5751E5] hover:scale-105">Home</li>
             </Link>
-            <Link href={"/"}>
+            <Link href={"#about"}>
               <li className="ml-10 text-sm uppercase hover: border-b hover:text-[#5751E5] hover:scale-105">About</li>
             </Link>
-            <Link href={"/"}>
+            <Link href={"#skills"}>
               <li className="ml-10 text-sm uppercase hover: border-b hover:text-[#5751E5] hover:scale-105">
                 Skills
               </li>
             </Link>
-            <Link href={"/"}>
+            <Link href={"#projects"}>
               <li className="ml-10 text-sm uppercase hover: border-b hover:text-[#5751E5] hover:scale-105">
                 Projects
               </li>
             </Link>
-            <Link href={"/"}>
+            <Link href={"#contact"}>
               <li className="ml-10 text-sm uppercase hover: border-b hover:text-[#5751E5] hover:scale-105">
                 Contact
               </li>
