@@ -16,7 +16,7 @@ function Skill(props) {
               <div className="m-auto">
                 <Image
                   src={
-                    "/assets/341027718_1676182212842322_1799788735964277705_n.png"
+                    "/assets/logo-2582748_1280.webp"
                   }
                   width={"64"}
                   height={"64"}
@@ -24,7 +24,7 @@ function Skill(props) {
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>HTML</h3>
+                <h3 className="text-[#E54F19]">HTML</h3>
               </div>
             </div>
           </div>
@@ -34,7 +34,7 @@ function Skill(props) {
               <div className="m-auto">
                 <Image
                   src={
-                    "/assets/341027718_1676182212842322_1799788735964277705_n.png"
+                    "/assets/cb7f3051-b4f7-4ca0-932a-0f32f8e1fd0a.webp"
                   }
                   width={"64"}
                   height={"64"}
@@ -42,7 +42,7 @@ function Skill(props) {
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>HTML</h3>
+                <h3 className="text-[#74A1C4]">PYTHON</h3>
               </div>
             </div>
           </div>
@@ -52,7 +52,7 @@ function Skill(props) {
               <div className="m-auto">
                 <Image
                   src={
-                    "/assets/341027718_1676182212842322_1799788735964277705_n.png"
+                    "/assets/communityIcon_4g1uo0kd87c61.png"
                   }
                   width={"64"}
                   height={"64"}
@@ -60,7 +60,7 @@ function Skill(props) {
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>HTML</h3>
+                <h3 className="text-blue-800">REACTJS</h3>
               </div>
             </div>
           </div>
@@ -70,15 +70,52 @@ function Skill(props) {
               <div className="m-auto">
                 <Image
                   src={
-                    "/assets/341027718_1676182212842322_1799788735964277705_n.png"
+                    "/assets/nodejs.png"
                   }
+                  className="w-full h-full"
                   width={"64"}
                   height={"64"}
                   alt="/"
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>HTML</h3>
+                <h3 className="text-green-500">NODEJS</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image
+                  src={
+                    "/assets/django-logo-big-removebg-preview.png"
+                  }
+                  className="w-full h-full"
+                  width={"64"}
+                  height={"64"}
+                  alt="/"
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3 className="text-green-800">DJANGO</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image
+                  src={
+                    "/assets/nextjs-icon-dark-background.png"
+                  }
+                  className="w-full h-full"
+                  width={"64"}
+                  height={"64"}
+                  alt="/"
+                />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3 className="text-gray-800">NEXTJS</h3>
               </div>
             </div>
           </div>
